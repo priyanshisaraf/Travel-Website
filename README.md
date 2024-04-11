@@ -6,7 +6,6 @@ Purpose of the website:<br>
 
 •	Promote Tourism
 •	Raise Awareness
-•	Encourage Sustainable Tourism
 •	Facilitate Trip Planning
 •	Foster Cultural Exchange
 <br><br>
