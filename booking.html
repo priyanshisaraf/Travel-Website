@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tour Booking</title>
+  <link rel="stylesheet" href="style-booking.css">
+</head>
+<body>
+  <div class="container">
+    <h2>Book Your Tour</h2>
+    <form id="bookingForm">
+      <div class="form-group">
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+      </div>
+      <div class="form-group">
+        <label for="package">Select Package:</label>
+        <select id="package" name="package" required>
+          <option value="">Select a package</option>
+          <option value="Package 1">Package 1</option>
+          <option value="Package 2">Package 2</option>
+          <!-- Add more package options as needed -->
+        </select>
+      </div>
+      <button type="submit">Submit Booking</button>
+    </form>
+  </div>
+
+  <script src="script-booking.js"></script>
+</body>
+</html>
